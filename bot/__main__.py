@@ -7,9 +7,9 @@ import asyncio
 # Initialize bot
 app = Client(
     "Bot",
-    bot_token=CONFIG.BOT_TOKEN,
-    api_id=CONFIG.API_ID,
-    api_hash=CONFIG.API_HASH,
+    bot_token=CONFIG.1874957813:AAGLwnASBj6MEbaq3DL-puUsI9BGb4ic_iM,
+    api_id=CONFIG.4241128,
+    api_hash=CONFIG.1e0cd79fd4f95c64c9ee12b3c3c9ad2a,
     workdir=os_path_join(CONFIG.ROOT, CONFIG.WORKDIR),
     plugins=dict(root="bot/handlers")
 )
@@ -23,7 +23,7 @@ app.add_handler(
     )
 )
 
-if CONFIG.BOT_PASSWORD:
+if CONFIG.BOT_PASSWORD:12345
     # register /pass handler
     app.add_handler(
         MessageHandler(
